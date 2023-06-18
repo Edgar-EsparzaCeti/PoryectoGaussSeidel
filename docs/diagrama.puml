@@ -1,0 +1,21 @@
+@startuml diagrama
+
+package MetodoNumericoGaussseidel{  
+
+GaussSediel  o--  vector #Red
+
+
+class GaussSediel{ 
+
+    + void resolver()
+    + void imprimir() 
+    + int creatematrix()
+    + int procesar()
+}
+class Vector{
+    - A
+    - b
+    - x
+}
+}
+@enduml
